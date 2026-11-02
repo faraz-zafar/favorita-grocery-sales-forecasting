@@ -1,0 +1,17 @@
+[project]
+name = "favorita-grocery-sales-forecasting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Niloufar Alavi", email = "niloufaralavi92@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+favorita-grocery-sales-forecasting = "favorita_grocery_sales_forecasting:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
