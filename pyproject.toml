@@ -7,7 +7,13 @@ authors = [
     { name = "Niloufar Alavi", email = "niloufaralavi92@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 favorita-grocery-sales-forecasting = "favorita_grocery_sales_forecasting:main"
